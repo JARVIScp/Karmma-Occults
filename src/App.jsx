@@ -11,6 +11,7 @@ import WhoCanBenefit from './components/WhoCanBenefit';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import ConsultationModal from './components/ConsultationModal';
+import EnquireButton from './components/EnquireButton';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <CTA />
       <Footer />
       <ConsultationModal />
+      <EnquireButton />
     </main>
   );
 }
