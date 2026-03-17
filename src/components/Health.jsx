@@ -46,7 +46,7 @@ const Health = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent pointer-events-none" />
             <div className="text-center relative z-10 px-4">
-              <p className="text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-serif italic mb-4 sm:mb-8 transition-all duration-500">
+              <p className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif italic mb-4 sm:mb-8 transition-all duration-500">
                 Graphotherapy
               </p>
               <p className="text-[10px] sm:text-xs lg:text-sm text-muted uppercase tracking-[0.2em] max-w-sm mx-auto leading-relaxed">
