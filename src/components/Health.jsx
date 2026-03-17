@@ -42,12 +42,14 @@ const Health = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="relative aspect-video sm:aspect-square rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-8 sm:p-12 flex items-center justify-center"
+            className="relative aspect-video sm:aspect-square rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-6 sm:p-12 lg:p-16 flex items-center justify-center"
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent pointer-events-none" />
-            <div className="text-center relative z-10">
-              <p className="text-3xl sm:text-6xl font-serif italic mb-4 sm:mb-6">Graphotherapy</p>
-              <p className="text-xs sm:text-sm text-muted uppercase tracking-[0.2em] max-w-xs mx-auto">
+            <div className="text-center relative z-10 px-4">
+              <p className="text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-serif italic mb-4 sm:mb-8 transition-all duration-500">
+                Graphotherapy
+              </p>
+              <p className="text-[10px] sm:text-xs lg:text-sm text-muted uppercase tracking-[0.2em] max-w-sm mx-auto leading-relaxed">
                 Structured writing exercises to reshape behavioural patterns and improve focus.
               </p>
             </div>
