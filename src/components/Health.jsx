@@ -42,18 +42,18 @@ const Health = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="relative aspect-square rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-12 flex items-center justify-center"
+            className="relative aspect-video sm:aspect-square rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-8 sm:p-12 flex items-center justify-center"
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent pointer-events-none" />
-            <div className="text-center">
-              <p className="text-6xl font-serif italic mb-6">Graphotherapy</p>
-              <p className="text-sm text-muted uppercase tracking-[0.2em] max-w-xs mx-auto">
+            <div className="text-center relative z-10">
+              <p className="text-4xl sm:text-6xl font-serif italic mb-4 sm:mb-6">Graphotherapy</p>
+              <p className="text-xs sm:text-sm text-muted uppercase tracking-[0.2em] max-w-xs mx-auto">
                 Structured writing exercises to reshape behavioural patterns and improve focus.
               </p>
             </div>
             {/* Minimalist Grid Pattern */}
             <div className="absolute inset-0 opacity-10 pointer-events-none" 
-                 style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '40px 40px' }} 
+                 style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '20px 20px sm:40px 40px' }} 
             />
           </motion.div>
         </div>
