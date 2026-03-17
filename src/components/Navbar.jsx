@@ -4,6 +4,8 @@ import { Menu, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
+import logo from '../assets/logo.png';
+
 const cn = (...inputs) => twMerge(clsx(inputs));
 
 const Navbar = () => {
@@ -77,7 +79,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className={isScrolled ? "flex-shrink-0" : "flex-1 flex justify-start"}>
             <a href="#" className="flex items-center gap-2 shrink-0">
-              <img src="/logo.png" alt="Karmma Occults" className={cn("w-auto transition-all", isScrolled ? "h-14" : "h-20")} />
+              <img src={logo} alt="Karmma Occults" className={cn("w-auto transition-all", isScrolled ? "h-14" : "h-20")} />
             </a>
           </div>
           

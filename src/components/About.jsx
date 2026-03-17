@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import portrait from '../assets/portrait.jpg';
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
           className="relative aspect-[4/5] rounded-3xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 cursor-pointer border border-white/5"
         >
           <img 
-            src="/portrait.jpg" 
+            src={portrait} 
             alt="Shailesh Vekariya" 
             className="w-full h-full object-cover"
           />
