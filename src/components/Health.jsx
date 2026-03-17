@@ -46,7 +46,7 @@ const Health = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent pointer-events-none" />
             <div className="text-center relative z-10">
-              <p className="text-4xl sm:text-6xl font-serif italic mb-4 sm:mb-6">Graphotherapy</p>
+              <p className="text-3xl sm:text-6xl font-serif italic mb-4 sm:mb-6">Graphotherapy</p>
               <p className="text-xs sm:text-sm text-muted uppercase tracking-[0.2em] max-w-xs mx-auto">
                 Structured writing exercises to reshape behavioural patterns and improve focus.
               </p>
